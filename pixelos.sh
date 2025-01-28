@@ -12,11 +12,6 @@ echo =====
 echo Sync Successfull
 echo =====
 
-export BUILD_USERNAME=blaze
-export BUILD_HOSTNAME=crave
-export TZ=Asia/India
-echo ======= Export Done ======
-
 source build/envsetup.sh
 echo ==================
 echo envsetup.sh done
@@ -27,5 +22,5 @@ echo Starting Build
 echo ==================
 
 breakfast sweet user
- 
-mka bacon -j$(nproc --all)
+
+mka bacon
