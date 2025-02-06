@@ -22,5 +22,5 @@ echo Starting Build
 echo ==================
 
 breakfast sweet user
-
+mka installclean
 mka bacon
