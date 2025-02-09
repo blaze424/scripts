@@ -22,5 +22,6 @@ echo "**************"
 echo Starting Build
 echo "**************"
 
+breakfast sweet user
 mka installclean
 brunch sweet user
