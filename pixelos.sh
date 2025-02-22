@@ -8,7 +8,7 @@ echo Local Manifest Cloning Successfull
 echo "***************"
 
 
-/opt/crave/resync.shs
+/opt/crave/resync.sh
 echo "***************"
 echo Sync Successfull
 echo "***************"
