@@ -22,6 +22,6 @@ echo "***************"
 echo Starting Build
 echo "***************"
 
-lunch aosp_sweet-ap4a-userdebug
+breakfast sweet user
 mka installclean
 mka bacon
