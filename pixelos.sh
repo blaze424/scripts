@@ -1,5 +1,5 @@
 rm -rf .repo/local_manifests/
-repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen --git-lfs
+#repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen --git-lfs
 
 git clone -b pixelos-15-qpr1 --depth 1 https://github.com/blaze424/local_manifests .repo/local_manifests
 
@@ -22,5 +22,5 @@ echo "***************"
 echo Starting Build
 echo "***************"
 
-lunch aosp_sweet-ap4a-user
+breakfast sweet user
 mka bacon
