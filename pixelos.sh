@@ -22,5 +22,5 @@ echo "***************"
 echo Starting Build
 echo "***************"
 
-lunch aosp_sweet-user
+lunch aosp_sweet-ap4a-user
 mka bacon
