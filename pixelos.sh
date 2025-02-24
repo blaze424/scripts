@@ -22,6 +22,5 @@ echo "***************"
 echo Starting Build
 echo "***************"
 
-breakfast sweet user
-mka installclean
+lunch aosp_sweet-user
 mka bacon
