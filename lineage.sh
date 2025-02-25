@@ -21,3 +21,6 @@ echo "***************"
 
 breakfast sweet user
 brunch sweet user
+
+curl bashupload.com -T out/target/product/*/*.zip
+curl bashupload.com -T out/target/product/*/recovery.img
