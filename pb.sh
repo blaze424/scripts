@@ -12,13 +12,13 @@ echo "***************"
 echo Sync Successfull
 echo "***************"
 
-#source build/envsetup.sh
+source build/envsetup.sh
 echo "***************"
-#echo envsetup.sh done
+echo envsetup.sh done
 echo "***************"
  
 echo "***************"
 echo Starting Build
 echo "***************"
 
-#./pb-build.sh dubai
+./pb-build.sh dubai
