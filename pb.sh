@@ -1,9 +1,7 @@
 rm -rf .repo/local_manifests/
-#rm -rf hardware/qcom-caf/common/
-
 repo init -u https://github.com/PixelBuildsROM/android_manifest -b infinity
 
-#git clone -b pb --depth 1 https://github.com/blaze424/local_manifests .repo/local_manifests
+git clone -b pb-temp --depth 1 https://github.com/blaze424/local_manifests .repo/local_manifests
 
 echo "***************"
 echo Local Manifest Cloning Successfull
