@@ -21,5 +21,5 @@ echo "***************"
 echo Starting Build
 echo "***************"
 
-breakfast sweet userdebug
-brunch sweet userdebug
+axion sweet gms core
+ax -br
