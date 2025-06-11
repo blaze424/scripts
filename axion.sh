@@ -12,6 +12,9 @@ echo "***************"
 echo Sync Successfull
 echo "***************"
 
+rm -rf packages/apps/Updater/
+git clone -b lineage-22.2 https://github.com/blaze424/android_packages_apps_Updater.git packages/apps/Updater/
+
 source build/envsetup.sh
 echo "***************"
 echo envsetup.sh done
