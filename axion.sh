@@ -1,6 +1,6 @@
 rm -rf .repo/local_manifests/
 
-git clone -b lineage-22.2 https://github.com/blaze424/local_manifests .repo/local_manifests
+git clone -b mido https://github.com/blaze424/local_manifests .repo/local_manifests
 echo "***************"
 echo Local Manifest Cloning Successfull
 echo "***************"
@@ -24,5 +24,5 @@ echo "***************"
 echo Starting Build
 echo "***************"
 
-axion sweet gms core
+axion mido gms pico
 ax -br
