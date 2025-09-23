@@ -1,4 +1,6 @@
 rm -rf .repo/local_manifests/
+rm -rf prebuilts/clang/host/linux-x86
+rm -rf packages/apps/Updater/
 
 git clone -b mido https://github.com/blaze424/local_manifests .repo/local_manifests
 echo "***************"
