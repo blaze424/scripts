@@ -2,6 +2,10 @@ rm -rf .repo/local_manifests/
 rm -rf prebuilts/clang/host/linux-x86
 rm -rf packages/apps/Updater/
 
+rm -rf hardware/qcom/sm8150
+rm -rf hardware/qcom/sdm845
+rm -rf hardware/qcom/sm7250
+
 git clone -b mido https://github.com/blaze424/local_manifests .repo/local_manifests
 echo "***************"
 echo Local Manifest Cloning Successfull
